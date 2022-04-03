@@ -1,0 +1,87 @@
+body {
+    margin: 30px;
+    padding: 0;
+    background-color: rgb(226, 223, 223);
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    background-color: rgb(236, 220, 39);
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: small;
+    padding: 20px;
+}
+
+.nav-links li {
+    padding: 10px;
+    font-family: Comfortaa, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+
+
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 40px;
+}
+
+.sobre-mim h1 {
+    height: 40px;
+    margin-top: 40px;
+}
+
+.span-ola {
+    color: rgb(236, 220, 39) ;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: justify;
+
+}
+.logo-trybe {
+    width: 100px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 10px;
+}
+
+hr {
+    margin: 0 100px;
+}
+
+.bg-img {
+    border-radius: 15px 15px 0 0 ;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 60px));
+    background-color: rgb(119, 119, 119);
+    color: white;
+
+}
+
+.main-content {
+    clip-path: polygon(0 0, 100% 60px, 100% 100%, 0 100%);
+    margin-top: 5px;
+    background-color: rgb(119, 119, 119);
+}
+
